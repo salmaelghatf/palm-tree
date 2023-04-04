@@ -1,0 +1,208 @@
+body {
+  background-color: transparent;
+  color: black;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+p{
+margin: 10px 5px;
+margin-bottom: 20px;
+}
+
+.banner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+#banner1{
+  background-image: url(images/beauty.jpg);
+  padding: 45px 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text{
+  color: white;
+  font-weight: 700;
+  font-size: xx-large;
+  border: #b785c7;
+  border-style:double;
+  padding: 15px;
+}
+
+#banner2{
+background-image: url(images/beauty2.jpeg);
+padding: 300px 0px;
+background-position: center;
+background-size: cover;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+.card-white {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 8px;
+}
+.card-white-small {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin: 24px;
+}
+
+#card-border{
+  border-color: #474747;
+  background-color:transparent;
+  margin: 100px;
+  margin-right: 10px;
+  border-style: solid;
+  padding: 30px;
+  max-height: 350px;
+}
+#card-white2{
+  background-color:transparent;
+  margin: 170px 10px;
+  margin-right: 100px;
+  border-style: groove;
+  border-color:#b785c7;
+  padding: 0px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-white-img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-border-img{
+  height: 233px;
+  width: 80%;
+  object-fit: cover;
+}
+
+img{
+  height: 380px;
+  width: 60%;
+  object-fit: cover;
+}
+
+#block3-container{
+  background-image: url(images/girl.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 550px;
+  margin: 20px;
+}
+
+.grid-image{
+  align-items: center;
+  max-height: 80px;
+}
+
+#unique-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 300px;
+}
+
+
+h1 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size:x-large;
+}
+
+h2 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size:large
+}
+
+h3{
+  font-weight: 700px;
+  padding-left: 50px;
+}
+
+.btn-blue {
+  background-color:#b785c7;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.btn-blue:hover{
+  background-color: #ffffff;
+  color: #b785c7;
+}
+
+.newsletter {
+  background-color: #eee;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: none;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.newsletter input[type="submit"] {
+  background-color:#b785c7;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  margin: 10px;
+  padding: 10px;
+} 
+#newsletter-text{
+  margin: 10px;
+  padding: 10px;
+  color: #474747;
+  font-size: large;
+}
+
+.footer{
+  background-color: #b785c7;
+  color: white;
+}
+a{
+  font-weight: lighter;
+  padding: 0,5px;
+  margin: 1px;
+  color: white;
+  text-decoration: none;
+}
+ul {
+padding-left: 50px;
+}
+li{
+  list-style-type: none;
+  padding-bottom: 10px;
+}
